@@ -62,7 +62,8 @@ for quizNum in range(35):
       for pos in range(4):
         quizFile.write('%s. %s' % ('ABCD'[pos], finalAnswersList[pos]) + ' ' * 3)
       quizFile.write('\n\n')
-
+      quizFile.close()
+      answerFile.close()
 
 
 
